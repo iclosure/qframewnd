@@ -1,0 +1,61 @@
+import QtQuick 2.7
+import QtQuick.Controls 2.0
+import QtQuick.Layouts 1.0
+
+Item {
+    width: 800
+    height: 480
+    property alias checkBox1: checkBox1
+    property alias textField2: textField2
+
+    property alias textField1: textField1
+    property alias button1: button1
+    property alias comboBox: comboBox
+
+    RowLayout {
+        anchors.horizontalCenter: parent.horizontalCenter
+        anchors.topMargin: 20
+        anchors.top: parent.top
+
+        TextField {
+            id: textField1
+            padding: -1
+            placeholderText: qsTr("Text Field")
+        }
+
+        Button {
+            id: button1
+            text: qsTr("Press Me")
+        }
+
+        TextField {
+            id: textField2
+            width: 173
+            height: 48
+            text: qsTr("Text Field")
+        }
+    }
+
+    ComboBox {
+        id: comboBox
+        x: 67
+        y: 168
+        width: 253
+        height: 26
+        model: myModel
+    }
+
+    ListModel {
+        id: myModel
+    }
+
+
+    CheckBox {
+        id: checkBox1
+        x: 151
+        y: 88
+        width: 142
+        height: 48
+        text: qsTr("Check Box")
+    }
+}
