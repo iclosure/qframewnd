@@ -38,34 +38,35 @@ AppWindowEventFilter::RegionTypes AppWindowEventFilter::testHit(const QPoint &po
     int captionHeight = d_header ? d_header->height() : 0;
     const int doubleBorder = d_border;// * 2;
     RegionTypes regionTypes = 0;
-    // left
-    if (0 <= pos.x() && pos.x() < doubleBorder) {
-        if (pos.x() < d_border || pos.y() < d_border) {
-            regionTypes |= RegionLeft;
-        }
-    }
-    // right
-    if (width - doubleBorder < pos.x() && pos.x() <= width) {
-        if (pos.x() > width - d_border || pos.y() < d_border) {
-            regionTypes |= RegionRight;
-        }
-    }
-    // top
-    if (0 <= pos.y() && pos.y() < doubleBorder) {
-        if (pos.y() < d_border || pos.x() < doubleBorder) {
-            regionTypes |= RegionTop;
-        }
-    }
-    // bottom
-    if (doubleBorder < pos.y() && pos.y() <= height) {
-        if (pos.y() > height - d_border || pos.y() < d_border) {
-            regionTypes |= RegionBottom;
-        }
-    }
     // caption
     if (doubleBorder < pos.x() && pos.x() < width - doubleBorder
             && d_border < pos.y() && pos.y() < captionHeight) {
         regionTypes = RegionCaption;
+    } else {
+        // left
+        if (0 <= pos.x() && pos.x() < doubleBorder) {
+            if (pos.x() < d_border || pos.y() < d_border) {
+                regionTypes |= RegionLeft;
+            }
+        }
+        // right
+        if (width - doubleBorder < pos.x() && pos.x() <= width) {
+            if (pos.x() > width - d_border || pos.y() < d_border) {
+                regionTypes |= RegionRight;
+            }
+        }
+        // top
+        if (0 <= pos.y() && pos.y() < doubleBorder) {
+            if (pos.y() < d_border || pos.x() < doubleBorder) {
+                regionTypes |= RegionTop;
+            }
+        }
+        // bottom
+        if (doubleBorder < pos.y() && pos.y() <= height) {
+            if (pos.y() > height - d_border || pos.y() < d_border) {
+                regionTypes |= RegionBottom;
+            }
+        }
     }
 
     return regionTypes;
