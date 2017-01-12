@@ -8,6 +8,7 @@ import QtQuick.Window 2.2
 import Qt.labs.settings 1.0
 import QtQuick.XmlListModel 2.0
 import com.smartsoft.model 1.0
+import "quick3d"
 
 ApplicationWindow {
     id: window
@@ -163,6 +164,15 @@ ApplicationWindow {
         id: swipeView
         anchors.fill: parent
         currentIndex: tabBar.currentIndex
+
+        Page {
+            id: page3d
+
+            Quick3D {
+                id: quick3d
+                anchors.fill: parent
+            }
+        }
 
         Page1 {
             id: page1

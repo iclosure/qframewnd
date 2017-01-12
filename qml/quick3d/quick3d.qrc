@@ -1,0 +1,6 @@
+<RCC>
+    <qresource prefix="/">
+        <file>Quick3D.qml</file>
+    </qresource>
+    <qresource prefix="/images"/>
+</RCC>

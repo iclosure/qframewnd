@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE QtCreatorProject>
-<!-- Written by QtCreator 4.2.0, 2017-01-03T12:59:57. -->
+<!-- Written by QtCreator 4.2.0, 2017-01-12T23:17:07. -->
 <qtcreator>
  <data>
   <variable>EnvironmentId</variable>
-  <value type="QByteArray">{968606ac-1613-4c83-a2d7-fb75b2236b32}</value>
+  <value type="QByteArray">{c127caac-d732-49ce-a0b9-3645d439f30e}</value>
  </data>
  <data>
   <variable>ProjectExplorer.Project.ActiveTarget</variable>
@@ -28,13 +28,7 @@
      <value type="QByteArray" key="CurrentPreferences">QmlJSGlobal</value>
     </valuemap>
    </valuemap>
-   <valuemap type="QVariantMap" key="EditorConfiguration.CodeStyle.2">
-    <value type="QString" key="language">Nim</value>
-    <valuemap type="QVariantMap" key="value">
-     <value type="QByteArray" key="CurrentPreferences">NimGlobal</value>
-    </valuemap>
-   </valuemap>
-   <value type="int" key="EditorConfiguration.CodeStyle.Count">3</value>
+   <value type="int" key="EditorConfiguration.CodeStyle.Count">2</value>
    <value type="QByteArray" key="EditorConfiguration.Codec">UTF-8</value>
    <value type="bool" key="EditorConfiguration.ConstrainTooltips">false</value>
    <value type="int" key="EditorConfiguration.IndentSize">4</value>
@@ -65,14 +59,14 @@
  <data>
   <variable>ProjectExplorer.Project.Target.0</variable>
   <valuemap type="QVariantMap">
-   <value type="QString" key="ProjectExplorer.ProjectConfiguration.DefaultDisplayName">Qt 5.7.0</value>
-   <value type="QString" key="ProjectExplorer.ProjectConfiguration.DisplayName">Qt 5.7.0</value>
-   <value type="QString" key="ProjectExplorer.ProjectConfiguration.Id">{cc2c9217-5c48-4bcc-a3bb-1ada4794f088}</value>
+   <value type="QString" key="ProjectExplorer.ProjectConfiguration.DefaultDisplayName">Qt5.7.1</value>
+   <value type="QString" key="ProjectExplorer.ProjectConfiguration.DisplayName">Qt5.7.1</value>
+   <value type="QString" key="ProjectExplorer.ProjectConfiguration.Id">{e62e2a28-5370-441c-b492-d633da8463b4}</value>
    <value type="int" key="ProjectExplorer.Target.ActiveBuildConfiguration">0</value>
    <value type="int" key="ProjectExplorer.Target.ActiveDeployConfiguration">0</value>
    <value type="int" key="ProjectExplorer.Target.ActiveRunConfiguration">0</value>
    <valuemap type="QVariantMap" key="ProjectExplorer.Target.BuildConfiguration.0">
-    <value type="QString" key="ProjectExplorer.BuildConfiguration.BuildDirectory">/Users/iclosure/workspace/company/smartsoft/github/build-qframewnd-Qt_5_7_0-Debug</value>
+    <value type="QString" key="ProjectExplorer.BuildConfiguration.BuildDirectory">W:/build-qframewnd-Qt5_7_1-Debug</value>
     <valuemap type="QVariantMap" key="ProjectExplorer.BuildConfiguration.BuildStepList.0">
      <valuemap type="QVariantMap" key="ProjectExplorer.BuildStepList.Step.0">
       <value type="bool" key="ProjectExplorer.BuildStep.Enabled">true</value>
@@ -90,10 +84,7 @@
       <value type="QString" key="ProjectExplorer.ProjectConfiguration.DefaultDisplayName">Make</value>
       <value type="QString" key="ProjectExplorer.ProjectConfiguration.DisplayName"></value>
       <value type="QString" key="ProjectExplorer.ProjectConfiguration.Id">Qt4ProjectManager.MakeStep</value>
-      <valuelist type="QVariantList" key="Qt4ProjectManager.MakeStep.AutomaticallyAddedMakeArguments">
-       <value type="QString">-w</value>
-       <value type="QString">-r</value>
-      </valuelist>
+      <valuelist type="QVariantList" key="Qt4ProjectManager.MakeStep.AutomaticallyAddedMakeArguments"/>
       <value type="bool" key="Qt4ProjectManager.MakeStep.Clean">false</value>
       <value type="QString" key="Qt4ProjectManager.MakeStep.MakeArguments"></value>
       <value type="QString" key="Qt4ProjectManager.MakeStep.MakeCommand"></value>
@@ -109,10 +100,7 @@
       <value type="QString" key="ProjectExplorer.ProjectConfiguration.DefaultDisplayName">Make</value>
       <value type="QString" key="ProjectExplorer.ProjectConfiguration.DisplayName"></value>
       <value type="QString" key="ProjectExplorer.ProjectConfiguration.Id">Qt4ProjectManager.MakeStep</value>
-      <valuelist type="QVariantList" key="Qt4ProjectManager.MakeStep.AutomaticallyAddedMakeArguments">
-       <value type="QString">-w</value>
-       <value type="QString">-r</value>
-      </valuelist>
+      <valuelist type="QVariantList" key="Qt4ProjectManager.MakeStep.AutomaticallyAddedMakeArguments"/>
       <value type="bool" key="Qt4ProjectManager.MakeStep.Clean">true</value>
       <value type="QString" key="Qt4ProjectManager.MakeStep.MakeArguments">clean</value>
       <value type="QString" key="Qt4ProjectManager.MakeStep.MakeCommand"></value>
@@ -132,7 +120,7 @@
     <value type="bool" key="Qt4ProjectManager.Qt4BuildConfiguration.UseShadowBuild">true</value>
    </valuemap>
    <valuemap type="QVariantMap" key="ProjectExplorer.Target.BuildConfiguration.1">
-    <value type="QString" key="ProjectExplorer.BuildConfiguration.BuildDirectory">/Users/iclosure/workspace/company/smartsoft/github/build-qframewnd-Qt_5_7_0-Release</value>
+    <value type="QString" key="ProjectExplorer.BuildConfiguration.BuildDirectory">W:/build-qframewnd-Qt5_7_1-Release</value>
     <valuemap type="QVariantMap" key="ProjectExplorer.BuildConfiguration.BuildStepList.0">
      <valuemap type="QVariantMap" key="ProjectExplorer.BuildStepList.Step.0">
       <value type="bool" key="ProjectExplorer.BuildStep.Enabled">true</value>
@@ -150,10 +138,7 @@
       <value type="QString" key="ProjectExplorer.ProjectConfiguration.DefaultDisplayName">Make</value>
       <value type="QString" key="ProjectExplorer.ProjectConfiguration.DisplayName"></value>
       <value type="QString" key="ProjectExplorer.ProjectConfiguration.Id">Qt4ProjectManager.MakeStep</value>
-      <valuelist type="QVariantList" key="Qt4ProjectManager.MakeStep.AutomaticallyAddedMakeArguments">
-       <value type="QString">-w</value>
-       <value type="QString">-r</value>
-      </valuelist>
+      <valuelist type="QVariantList" key="Qt4ProjectManager.MakeStep.AutomaticallyAddedMakeArguments"/>
       <value type="bool" key="Qt4ProjectManager.MakeStep.Clean">false</value>
       <value type="QString" key="Qt4ProjectManager.MakeStep.MakeArguments"></value>
       <value type="QString" key="Qt4ProjectManager.MakeStep.MakeCommand"></value>
@@ -169,10 +154,7 @@
       <value type="QString" key="ProjectExplorer.ProjectConfiguration.DefaultDisplayName">Make</value>
       <value type="QString" key="ProjectExplorer.ProjectConfiguration.DisplayName"></value>
       <value type="QString" key="ProjectExplorer.ProjectConfiguration.Id">Qt4ProjectManager.MakeStep</value>
-      <valuelist type="QVariantList" key="Qt4ProjectManager.MakeStep.AutomaticallyAddedMakeArguments">
-       <value type="QString">-w</value>
-       <value type="QString">-r</value>
-      </valuelist>
+      <valuelist type="QVariantList" key="Qt4ProjectManager.MakeStep.AutomaticallyAddedMakeArguments"/>
       <value type="bool" key="Qt4ProjectManager.MakeStep.Clean">true</value>
       <value type="QString" key="Qt4ProjectManager.MakeStep.MakeArguments">clean</value>
       <value type="QString" key="Qt4ProjectManager.MakeStep.MakeCommand"></value>
@@ -192,7 +174,7 @@
     <value type="bool" key="Qt4ProjectManager.Qt4BuildConfiguration.UseShadowBuild">true</value>
    </valuemap>
    <valuemap type="QVariantMap" key="ProjectExplorer.Target.BuildConfiguration.2">
-    <value type="QString" key="ProjectExplorer.BuildConfiguration.BuildDirectory">/Users/iclosure/workspace/company/smartsoft/github/build-qframewnd-Qt_5_7_0-Profile</value>
+    <value type="QString" key="ProjectExplorer.BuildConfiguration.BuildDirectory">W:/build-qframewnd-Qt5_7_1-Profile</value>
     <valuemap type="QVariantMap" key="ProjectExplorer.BuildConfiguration.BuildStepList.0">
      <valuemap type="QVariantMap" key="ProjectExplorer.BuildStepList.Step.0">
       <value type="bool" key="ProjectExplorer.BuildStep.Enabled">true</value>
@@ -210,10 +192,7 @@
       <value type="QString" key="ProjectExplorer.ProjectConfiguration.DefaultDisplayName">Make</value>
       <value type="QString" key="ProjectExplorer.ProjectConfiguration.DisplayName"></value>
       <value type="QString" key="ProjectExplorer.ProjectConfiguration.Id">Qt4ProjectManager.MakeStep</value>
-      <valuelist type="QVariantList" key="Qt4ProjectManager.MakeStep.AutomaticallyAddedMakeArguments">
-       <value type="QString">-w</value>
-       <value type="QString">-r</value>
-      </valuelist>
+      <valuelist type="QVariantList" key="Qt4ProjectManager.MakeStep.AutomaticallyAddedMakeArguments"/>
       <value type="bool" key="Qt4ProjectManager.MakeStep.Clean">false</value>
       <value type="QString" key="Qt4ProjectManager.MakeStep.MakeArguments"></value>
       <value type="QString" key="Qt4ProjectManager.MakeStep.MakeCommand"></value>
@@ -229,10 +208,7 @@
       <value type="QString" key="ProjectExplorer.ProjectConfiguration.DefaultDisplayName">Make</value>
       <value type="QString" key="ProjectExplorer.ProjectConfiguration.DisplayName"></value>
       <value type="QString" key="ProjectExplorer.ProjectConfiguration.Id">Qt4ProjectManager.MakeStep</value>
-      <valuelist type="QVariantList" key="Qt4ProjectManager.MakeStep.AutomaticallyAddedMakeArguments">
-       <value type="QString">-w</value>
-       <value type="QString">-r</value>
-      </valuelist>
+      <valuelist type="QVariantList" key="Qt4ProjectManager.MakeStep.AutomaticallyAddedMakeArguments"/>
       <value type="bool" key="Qt4ProjectManager.MakeStep.Clean">true</value>
       <value type="QString" key="Qt4ProjectManager.MakeStep.MakeArguments">clean</value>
       <value type="QString" key="Qt4ProjectManager.MakeStep.MakeCommand"></value>
@@ -310,13 +286,13 @@
     <valuelist type="QVariantList" key="PE.EnvironmentAspect.Changes"/>
     <value type="QString" key="ProjectExplorer.ProjectConfiguration.DefaultDisplayName">qframewnd</value>
     <value type="QString" key="ProjectExplorer.ProjectConfiguration.DisplayName"></value>
-    <value type="QString" key="ProjectExplorer.ProjectConfiguration.Id">Qt4ProjectManager.Qt4RunConfiguration:/Users/iclosure/workspace/company/smartsoft/github/qframewnd/qframewnd.pro</value>
+    <value type="QString" key="ProjectExplorer.ProjectConfiguration.Id">Qt4ProjectManager.Qt4RunConfiguration:W:/qframewnd/qframewnd.pro</value>
     <value type="bool" key="QmakeProjectManager.QmakeRunConfiguration.UseLibrarySearchPath">true</value>
     <value type="QString" key="Qt4ProjectManager.Qt4RunConfiguration.CommandLineArguments"></value>
     <value type="QString" key="Qt4ProjectManager.Qt4RunConfiguration.ProFile">qframewnd.pro</value>
     <value type="bool" key="Qt4ProjectManager.Qt4RunConfiguration.UseDyldImageSuffix">false</value>
     <value type="QString" key="Qt4ProjectManager.Qt4RunConfiguration.UserWorkingDirectory"></value>
-    <value type="QString" key="Qt4ProjectManager.Qt4RunConfiguration.UserWorkingDirectory.default">/Users/iclosure/workspace/company/smartsoft/github/build-qframewnd-Qt_5_7_0-Debug/qframewnd.app/Contents/MacOS</value>
+    <value type="QString" key="Qt4ProjectManager.Qt4RunConfiguration.UserWorkingDirectory.default"></value>
     <value type="uint" key="RunConfiguration.QmlDebugServerPort">3768</value>
     <value type="bool" key="RunConfiguration.UseCppDebugger">false</value>
     <value type="bool" key="RunConfiguration.UseCppDebuggerAuto">true</value>

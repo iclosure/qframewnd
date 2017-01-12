@@ -11,7 +11,6 @@ int main(int argc, char *argv[])
     QCoreApplication::setAttribute(Qt::AA_CompressHighFrequencyEvents);
     QApplication app(argc, argv);
 #if 1
-
     //
     if (qgetenv("QT_QUICK_CONTROLS_1_STYLE").isEmpty()) {
         qputenv("QT_QUICK_CONTROLS_1_STYLE", "Flat");

@@ -9,6 +9,8 @@
         <file>Page3.qml</file>
         <file>Page3Form.ui.qml</file>
         <file>test1.xml</file>
+        <file>quick3d/Quick3D.qml</file>
+        <file>quick3d/Toyplane.qml</file>
     </qresource>
     <qresource prefix="/images">
         <file alias="cback@2x.png">images/back@2x.png</file>

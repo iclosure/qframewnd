@@ -2,7 +2,8 @@
 CONFIG += c++11
 TEMPLATE = app
 
-QT += core gui widgets qml quick
+QT += core gui widgets
+QT += qml quick 3dcore 3drender 3dinput 3dquick 3dlogic 3dquickextras
 
 win32:QT += winextras
 
@@ -12,7 +13,10 @@ win32:LIBS += -luser32 -lgdi32
 
 macos:LIBS += -framework AppKit
 
-RESOURCES += qml.qrc
+RESOURCES += \
+    qml/qml.qrc \
+    qml/myobj/myobj.qrc \
+    qml/qtobj/obj.qrc
 
 # Additional import path used to resolve QML modules in Qt Creator's code model
 QML_IMPORT_PATH =
@@ -50,15 +54,17 @@ SOURCES += main.cpp \
     mainwindow.cpp \
 
 win32 {
-    #SOURCES += appwindoweventfilter.cpp
+   SOURCES += appwindoweventfilter.cpp
 }
 
 macos: {
     OBJECTIVE_SOURCES += \
-        appwindoweventfilter.m
+#        appwindoweventfilter.m
 
     #SOURCES += appwindoweventfilter.m
 }
+
+include(qml/quick3d/quick3d.pri)
 
 DISTFILES += \
     test1.xml
